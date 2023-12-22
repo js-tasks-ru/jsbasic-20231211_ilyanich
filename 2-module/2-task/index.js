@@ -1,8 +1,15 @@
-function factorial(n) {
-  for (let i = n - 1; i >= 1; i--) {
-    n *= i;
+function isEmpty(obj) {
+  let number = 0;
+  for (key in obj) {
+    obj;
+    ++number;
   }
-  return n;
+  if (number == 0) {
+    return true;
+  } else {
+    return false;
+  }
 }
-
-console.log(factorial(0));
+obj1 = {};
+obj2 = { name: "ilya" };
+console.log(isEmpty(obj1));

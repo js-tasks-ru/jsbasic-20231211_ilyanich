@@ -1,9 +1,8 @@
 function factorial(n) {
-  let i = 1;
   let fuct = 1;
-
-  for (i; i <= n; i++) {
+  for (let i = 1; i <= n; i++) {
     fuct *= i;
   }
   return fuct;
 }
+console.log(factorial(4));
