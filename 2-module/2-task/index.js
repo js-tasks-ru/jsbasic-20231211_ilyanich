@@ -10,6 +10,7 @@ function isEmpty(obj) {
     return false;
   }
 }
-obj1 = {};
-obj2 = { name: "ilya" };
-console.log(isEmpty(obj1));
+// obj1 = {};
+// obj2 = { name: "ilya" };
+// console.log(isEmpty(obj1));
+ß;
