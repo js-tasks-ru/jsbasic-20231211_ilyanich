@@ -14,3 +14,4 @@ function showSalary(users, age) {
 
     .join("");
 }
+let result = showSalary(users, age);
