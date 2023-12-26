@@ -12,4 +12,4 @@ function isEmpty(obj) {
 }
 obj1 = {};
 obj2 = { name: "ilya" };
-console.log(isEmpty(obj1));
+
