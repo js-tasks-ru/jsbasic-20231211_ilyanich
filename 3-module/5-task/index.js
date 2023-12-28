@@ -15,4 +15,4 @@ function getMinMax(str) {
   };
   return result;
 }
-console.log(getMinMax(inputData));
+
